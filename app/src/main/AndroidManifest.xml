@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MarathonApp">
-        <activity android:name=".ConfirmationActivity" android:label="Confirmation"></activity>
+        <activity
+            android:name=".ConfirmationActivity"
+            android:label="Confirmation" />
         <activity
             android:name=".FormActivity"
             android:label="Registration Form" />

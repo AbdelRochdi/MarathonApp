@@ -111,5 +111,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
+        <Button
+            android:id="@+id/manageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:onClick="launchManage"
+            android:text="manage users"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/applyBtn" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
