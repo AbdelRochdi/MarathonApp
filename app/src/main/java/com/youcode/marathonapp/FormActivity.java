@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class FormActivity extends AppCompatActivity {
     DBHelper DB;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
